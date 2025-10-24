@@ -9,6 +9,5 @@ ${login-url}   https://dev-ui.citytax.app/sign-in
 
 *** Test Cases ***
 Open Login Page
-    #create webdriver   chrome
     open browser    ${login-url}    chrome
     wait until element is visible   id:sign-in-page-title
