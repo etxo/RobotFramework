@@ -7,13 +7,11 @@ Library     SeleniumLibrary
 ${login-url}   https://dev-ui.citytax.app/sign-in
 ${email}    etxo@gmx.de
 ${password}    PassWord@1919
-${dashboard-id}
-*** Keywords ***
+${oauth_google}   link:https://dev.citytax.app/backend-dev/oauth2/authorization/google
 
-*** Test Cases ***
+*** Keywords ***
 Open Login Page
     open browser    ${login-url}    chrome
-#    open browser    ${login-url}    chromeheadless
     wait until element is visible   id:sign-in-page-title
 
 Submit Credentials
@@ -26,8 +24,19 @@ Submit Credentials
     #execute javascript     document.querySelector("#fuse-settings-panel > button").click
     #wait until page contains element    id:fuse-main
     capture page screenshot
-    #document.querySelector("#fuse-layout > div:nth-child(1) > button")
-    #document.querySelector("#fuse-settings-panel")
-    #document.querySelector("#fuse-settings-panel > button")
-    #document.querySelector("#fuse-settings-panel > button.MuiButtonBase-root.MuiButton-root.MuiButton-text.MuiButton-textInherit.MuiButton-sizeMedium.MuiButton-textSizeMedium.MuiButton-colorInherit.MuiButton-root.MuiButton-text.MuiButton-textInherit.MuiButton-sizeMedium.MuiButton-textSizeMedium.MuiButton-colorInherit.settingsButton.m-0.h-9.w-9.min-w-9.muiltr-10f91v0")
-    #document.querySelector("#root > div.MuiDrawer-root.flex.lg\\:hidden.MuiDrawer-modal.MuiModal-root.muiltr-fegi8q > div.MuiPaper-root.MuiPaper-elevation.MuiPaper-elevation16.MuiDrawer-paper.flex-col.flex-auto.h-full.MuiDrawer-paperAnchorLeft.muiltr-rte6yn > div > div.flex.min-h-0.mt-6.flex-1.flex-col.muiltr-1bgtini > div > ul > div:nth-child(14) > a")
+
+Process OAuth Login
+    Wait Until Element Is Visible    id:login-form
+    #click link    ${oauth_google}
+    Click Element    tag:a
+    Wait Until Element Is Visible    jsname:SgOY7
+
+*** Test Cases ***
+Login Guest User Form
+    Open Login Page
+    Submit Credentials
+
+Login Guest User Google
+    Open Login Page
+    Process OAuth Login
+    Capture Page Screenshot
