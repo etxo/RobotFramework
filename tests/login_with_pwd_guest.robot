@@ -6,7 +6,7 @@ Library     SeleniumLibrary
 *** Variables ***
 ${login-url}   https://dev-ui.citytax.app/sign-in
 ${email}    etxo@gmx.de
-${password}    29@Grebov
+${password}    PassWord@1919
 ${dashboard-id}
 *** Keywords ***
 
