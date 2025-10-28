@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4f1e30aa-7315-41e4-b45d-a89e6c9495ce" name="Changes" comment="NoT: google button works. pabot tried successfully.">
-      <change afterPath="$PROJECT_DIR$/tests/login_with_google.robot" afterDir="false" />
+    <list default="true" id="4f1e30aa-7315-41e4-b45d-a89e6c9495ce" name="Changes" comment="NoT: google sign in -&gt; dif test case">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/login_with_pwd_guest.robot" beforeDir="false" afterPath="$PROJECT_DIR$/tests/login_with_pwd_guest.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/login_with_google.robot" beforeDir="false" afterPath="$PROJECT_DIR$/tests/login_with_google.robot" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -141,7 +140,15 @@
       <option name="project" value="LOCAL" />
       <updated>1761652357990</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="NoT: google sign in -&gt; dif test case">
+      <option name="closed" value="true" />
+      <created>1761668263841</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1761668263841</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -150,6 +157,7 @@
     <MESSAGE value="NoT: robot framework language server -&gt; checked." />
     <MESSAGE value="NoT: test case for google login added." />
     <MESSAGE value="NoT: google button works. pabot tried successfully." />
-    <option name="LAST_COMMIT_MESSAGE" value="NoT: google button works. pabot tried successfully." />
+    <MESSAGE value="NoT: google sign in -&gt; dif test case" />
+    <option name="LAST_COMMIT_MESSAGE" value="NoT: google sign in -&gt; dif test case" />
   </component>
 </project>
