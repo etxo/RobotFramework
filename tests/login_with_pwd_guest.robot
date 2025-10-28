@@ -20,24 +20,8 @@ Submit Credentials
     click button    id:login-submit-button
     wait until element is visible    tag:h1     5s
 
-Process OAuth Login
-    Wait Until Element Is Visible    id:login-form  3s
-    Click Element    id:google-login-button
-    Wait Until Element Is Visible    id:yDmH0d
-    #Click Element   xpath=//*[@id="yDmH0d"]/div[1]/div[2]/footer/div/div/div
-    #Click Element    class:VfPpkd-aPP78e
-    Click Element    class:
-    Input Text    class:whsOnd    ${google-email}   ${TRUE}
-    Click Button    class:VfPpkd-LgbsSe
-
-
 *** Test Cases ***
 Login Guest User Form
     Open Login Page
     Submit Credentials
     capture page screenshot
-
-Login Guest User Google
-    Open Login Page
-    Process OAuth Login
-    Capture Page Screenshot
