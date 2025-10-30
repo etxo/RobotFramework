@@ -15,11 +15,11 @@ Process Google Login
     Wait Until Element Is Visible    id:login-form  3s
     Click Element    id:google-login-button
     Wait Until Element Is Visible    id:yDmH0d
-    #Sleep    1s
-    #Input Text    id:identifierId    ${google-email}   ${TRUE}
-    #Sleep    1s
-    #Click Element   id:identifierNext
-    #Wait Until Element Is Visible    id:password
+    Sleep    1s
+    Input Text    id:identifierId    ${google-email}   ${TRUE}
+    Sleep    1s
+    Click Element   id:identifierNext
+    Wait Until Element Is Visible    id:password
 
 *** Test Cases ***
 Login Guest With Google
