@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4f1e30aa-7315-41e4-b45d-a89e6c9495ce" name="Changes" comment="NoT: open chrome from profile">
-      <change afterPath="$PROJECT_DIR$/resources/common.resource" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_municipality_a/login_host.robot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_municipality_a/login_mnzpl.robot" afterDir="false" />
+    <list default="true" id="4f1e30aa-7315-41e4-b45d-a89e6c9495ce" name="Changes" comment="NoT: set test variable for keyword">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -177,7 +174,15 @@
       <option name="project" value="LOCAL" />
       <updated>1761825959191</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="NoT: set test variable for keyword">
+      <option name="closed" value="true" />
+      <created>1761912307307</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1761912307307</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -189,6 +194,7 @@
     <MESSAGE value="NoT: google sign in -&gt; dif test case" />
     <MESSAGE value="NoT: login with google fails" />
     <MESSAGE value="NoT: open chrome from profile" />
-    <option name="LAST_COMMIT_MESSAGE" value="NoT: open chrome from profile" />
+    <MESSAGE value="NoT: set test variable for keyword" />
+    <option name="LAST_COMMIT_MESSAGE" value="NoT: set test variable for keyword" />
   </component>
 </project>
