@@ -6,7 +6,7 @@ Library    String
 *** Variables ***
 ${login-url}   https://dev-ui.citytax.app/sign-in
 ${google-email}     etxotono@gmail.com
-${profile-path}     home/etxo/.config/google-chrome/Default
+${profile-path}     home/etxo/.cache/google-chrome/Default
 
 *** Keywords ***
 Open Profiled Browser
@@ -14,7 +14,7 @@ Open Profiled Browser
     #Call Method     ${chrome_options}    add_argument    --allow-running-insecure-content
     #Call Method     ${chrome_options}    add_argument    --disable-web-security
     Call Method     ${chrome_options}    add_argument    --user-data-dir\=${profile-path}
-    Create Webdriver    Chrome      options=${chrome_options}
+    Create Webdriver    Chrome         executable_path=${EXECDIR}/.venv/bin/chromedriver    options=${chrome_options}
 
 Login From Profile
     Go To    ${login-url}
