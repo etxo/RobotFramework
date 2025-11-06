@@ -4,8 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4f1e30aa-7315-41e4-b45d-a89e6c9495ce" name="Changes" comment="NoT: set test variable for keyword">
+    <list default="true" id="4f1e30aa-7315-41e4-b45d-a89e6c9495ce" name="Changes" comment="CT-E2E: workspace">
+      <change afterPath="$PROJECT_DIR$/tests/open_browser.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/RobotFramework.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/RobotFramework.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/common.resource" beforeDir="false" afterPath="$PROJECT_DIR$/resources/common.resource" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_municipality/login_mnzpl.robot" beforeDir="false" afterPath="$PROJECT_DIR$/test_municipality/login_mnz.robot" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,10 +32,13 @@
 }</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/etxo/RobotFramework.git&quot;,
-    &quot;accountId&quot;: &quot;bff57adc-af8f-4773-aab6-aee21958b204&quot;
+    &quot;url&quot;: &quot;git@github.com:etxo/RobotFramework.git&quot;,
+    &quot;accountId&quot;: &quot;89a41d50-13f5-4f69-9925-f718807cf9c8&quot;
   }
 }</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
 }</component>
@@ -44,23 +51,33 @@
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Python.main.executor": "Run",
+    "Robot Framework.run [Log ChromeDriver Path].executor": "Run",
     "Robot Framework.run [Login Guest User Form].executor": "Run",
     "Robot Framework.run [Login Guest User Google].executor": "Run",
     "Robot Framework.run [Login Guest With Google].executor": "Run",
     "Robot Framework.run [Login Host].executor": "Run",
     "Robot Framework.run [Login Municipality User].executor": "Run",
+    "Robot Framework.run [Login Municipality].executor": "Run",
     "Robot Framework.run [Open Browser From Profile].executor": "Run",
+    "Robot Framework.run [Open Chrom Browser].executor": "Run",
+    "Robot Framework.run [Open Chrome Browser].executor": "Run",
     "Robot Framework.run [Open Profiled Browser].executor": "Run",
+    "Robot Framework.run [Set Chrome Driver].executor": "Run",
+    "Robot Framework.run [Try To SetUp Webdriver].executor": "Run",
     "Robot Framework.run current file.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "CT__using__chrome__profile",
-    "settings.editor.selected.configurable": "preferences.sourceCode.Python",
+    "last_opened_file_path": "/home/etxo/PycharmProjects/RobotFramework/.venv/bin",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
     "settings.editor.splitter.proportion": "0.25236169"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/.venv/bin" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/test_municipality_a" />
       <recent name="$PROJECT_DIR$/tests" />
@@ -76,8 +93,9 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="Python 3.12 (RobotFramework)" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
@@ -98,7 +116,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-4e2b1448bda8-9a97661f3031-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-252.27397.106" />
+        <option value="bundled-python-sdk-164cda30dcd9-0af03a5fa574-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-252.26830.99" />
       </set>
     </attachedChunks>
   </component>
