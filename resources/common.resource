@@ -9,7 +9,7 @@ ${browser}  chrome
 ${path-to-driver}   ${EXECDIR}/.venv/bin/chromedriver
 ${tax-rate}    navbar-item-tax-rate-creation
 ${add-tax-rate}     municipality-tax-rate-add-button
-${sleep_time}   0s
+${sleep_time}   3s
 
 *** Keywords ***
 Open Login Page
