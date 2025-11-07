@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4f1e30aa-7315-41e4-b45d-a89e6c9495ce" name="Changes" comment="CT-E2E: executable_path for chrome driver">
+    <list default="true" id="4f1e30aa-7315-41e4-b45d-a89e6c9495ce" name="Changes" comment="CT-E2E: Go To User Settings IF_ELSE added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/common.resource" beforeDir="false" afterPath="$PROJECT_DIR$/resources/common.resource" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_municipality/login_host.robot" beforeDir="false" afterPath="$PROJECT_DIR$/test_municipality/login_host.robot" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test_municipality/login_mnz.robot" beforeDir="false" afterPath="$PROJECT_DIR$/test_municipality/login_mnz.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/login_from_profiled_browser.robot" beforeDir="false" afterPath="$PROJECT_DIR$/tests/login_from_profiled_browser.robot" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +55,7 @@
     "Robot Framework.run [Login Guest User Google].executor": "Run",
     "Robot Framework.run [Login Guest With Google].executor": "Run",
     "Robot Framework.run [Login Host].executor": "Run",
+    "Robot Framework.run [Login Municipality And Open Tax Rate].executor": "Run",
     "Robot Framework.run [Login Municipality User].executor": "Run",
     "Robot Framework.run [Login Municipality].executor": "Run",
     "Robot Framework.run [Open Browser From Profile].executor": "Run",
@@ -207,7 +208,15 @@
       <option name="project" value="LOCAL" />
       <updated>1762444220321</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="CT-E2E: Go To User Settings IF_ELSE added">
+      <option name="closed" value="true" />
+      <created>1762452269845</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1762452269845</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -221,6 +230,7 @@
     <MESSAGE value="NoT: open chrome from profile" />
     <MESSAGE value="NoT: set test variable for keyword" />
     <MESSAGE value="CT-E2E: executable_path for chrome driver" />
-    <option name="LAST_COMMIT_MESSAGE" value="CT-E2E: executable_path for chrome driver" />
+    <MESSAGE value="CT-E2E: Go To User Settings IF_ELSE added" />
+    <option name="LAST_COMMIT_MESSAGE" value="CT-E2E: Go To User Settings IF_ELSE added" />
   </component>
 </project>

@@ -7,6 +7,6 @@ Login Host
     Set Test Variable  ${email}    demo.host1@citytax.xyz
     Log    email : ${email}
     Submit Credentials
-    Sleep    1s
+    Sleep    ${sleep_time}
     Wait Until Element Is Visible   id:fuse-main
     Capture Page Screenshot
