@@ -7,22 +7,23 @@ ${email}
 ${password}    %CTdemo2025
 ${browser}  chrome
 ${path-to-driver}   ${EXECDIR}/.venv/bin/chromedriver
-${tax-rate}    navbar-item-tax-rate-creation
+${navbar_item}
 ${add-tax-rate}     municipality-tax-rate-add-button
+${text}
 ${sleep_time}   0s
 
 *** Keywords ***
 Open Login Page
-    open browser    ${login-url}    ${browser}  executable_path=${path-to-driver}
+    Open Browser    ${login-url}    ${browser}  executable_path=${path-to-driver}
     #Maximize Browser Window
-    wait until element is visible   id:sign-in-page-title
+    Wait Until Element Is Visible   id:sign-in-page-title
 
 Submit Credentials
-    input text    id:login-email-input  ${email}     ${TRUE}
+    Input Text    id:login-email-input  ${email}     ${TRUE}
     Sleep   ${sleep_time}
-    input password    id:login-password-input   ${password}
+    Input Password    id:login-password-input   ${password}
     Sleep   ${sleep_time}
-    click button    id:login-submit-button
+    Click Button    id:login-submit-button
 
 
 Open Navbar And Go To Next
@@ -31,6 +32,18 @@ Open Navbar And Go To Next
     Run Keyword IF    ${is_navbar_visible}
     ...    Click Element    id:navbar-open-button
     Sleep    ${sleep_time}
-    Wait Until Element Is Enabled    id:${tax-rate}
-    Click Element    id:${tax-rate}
-    Wait Until Element Is Visible    id:${add-tax-rate}
+    Wait Until Element Is Enabled    id:${navbar_item}
+    Click Element    id:${navbar_item}
+
+Create Tax Rate
+    Wait Until Element Is Visible    id:municipality-tax-rate-add-button
+    Click Element    id:municipality-tax-rate-add-button
+    Input Text    id::r7:     ${text}   ${TRUE}
+
+Add Season
+    Wait Until Element Is Visible    id:user-groups-section-delete-button-bd45e0fe-2924-4ca6-a270-871ff1afecec
+    Select Checkbox    id:CheckBoxOutlineBlankIcon
+    Checkbox Should Be Selected    id:CheckBoxOutlineBlankIcon
+    Click Button    id:season-rates-display-add-button
+    Wait Until Element Is Visible    id:season-section-modal
+
