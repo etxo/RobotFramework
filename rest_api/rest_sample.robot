@@ -1,2 +1,2 @@
 *** Settings ***
-Library    RequestsLibrary
+Library   RequestL

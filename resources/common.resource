@@ -31,7 +31,7 @@ Open Navbar And Go To Next
     Log     is navbar visible: ${is_navbar_visible}
     Run Keyword IF    ${is_navbar_visible}
     ...    Click Element    id:navbar-open-button
-    Sleep    ${sleep_time}
+    #Sleep    ${sleep_time}
     Wait Until Element Is Enabled    id:${navbar_item}
     Click Element    id:${navbar_item}
 
