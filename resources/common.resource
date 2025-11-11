@@ -2,7 +2,7 @@
 Library     SeleniumLibrary
 
 *** Variables ***
-${login-url}    https://dev-ui.citytax.app
+${base-url}    https://dev-ui.citytax.app
 ${email}
 ${password}    %CTdemo2025
 ${browser}  chrome
@@ -14,7 +14,7 @@ ${sleep_time}   0s
 
 *** Keywords ***
 Open Login Page
-    Open Browser    ${login-url}    ${browser}  executable_path=${path-to-driver}
+    Open Browser    ${base-url}    ${browser}  executable_path=${path-to-driver}
     #Maximize Browser Window
     Wait Until Element Is Visible   id:sign-in-page-title
 
