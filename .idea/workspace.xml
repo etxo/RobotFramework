@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4f1e30aa-7315-41e4-b45d-a89e6c9495ce" name="Changes" comment="CT_E2E: Add employee file.">
+    <list default="true" id="4f1e30aa-7315-41e4-b45d-a89e6c9495ce" name="Changes" comment="CT_E2E: RequestsLibrary installed">
+      <change afterPath="$PROJECT_DIR$/test_municipality/add_tax_rate.robot" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/common.resource" beforeDir="false" afterPath="$PROJECT_DIR$/resources/common.resource" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_municipality/add_season.robot" beforeDir="false" afterPath="$PROJECT_DIR$/test_municipality/add_season.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_municipality/add_season.robot" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +56,7 @@
     "Robot Framework.run [Login Host].executor": "Run",
     "Robot Framework.run [Login Municipality And Add Employee].executor": "Run",
     "Robot Framework.run [Login Municipality And Add Season].executor": "Run",
+    "Robot Framework.run [Login Municipality And Add Tax Rate].executor": "Run",
     "Robot Framework.run [Login Municipality And Open Tax Rate].executor": "Run",
     "Robot Framework.run [Login Municipality User].executor": "Run",
     "Robot Framework.run [Login Municipality].executor": "Run",
@@ -250,7 +251,15 @@
       <option name="project" value="LOCAL" />
       <updated>1762849867437</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="CT_E2E: RequestsLibrary installed">
+      <option name="closed" value="true" />
+      <created>1762858285810</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1762858285810</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -269,6 +278,7 @@
     <MESSAGE value="CT-E2E: sleep 0 sec" />
     <MESSAGE value="CT-E2E: add season is not finished." />
     <MESSAGE value="CT_E2E: Add employee file." />
-    <option name="LAST_COMMIT_MESSAGE" value="CT_E2E: Add employee file." />
+    <MESSAGE value="CT_E2E: RequestsLibrary installed" />
+    <option name="LAST_COMMIT_MESSAGE" value="CT_E2E: RequestsLibrary installed" />
   </component>
 </project>
