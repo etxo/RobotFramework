@@ -2,7 +2,7 @@
 Resource    ../resources/common.resource
 
 *** Variables ***
-@{manager_email}
+${manager_email}
 
 *** Test Cases ***
 Login Municipality And Add Employee
@@ -27,7 +27,7 @@ Login Municipality And Add Employee
     Input Text    id:employee-form-last-name-input    Arturianis
     Input Text    id:employee-form-phone-input    +370 312 34567
     Set Test Variable    ${manager_email}   arturart@citytaxd.xyz
-    Input Text    id:employee-form-email-input    text=${manager_email}
+    Input Text    id:employee-form-email-input    ${manager_email}
     #Capture Page Screenshot
     #Click Button    id:employee-form-submit-button
 # goes to employees page search bar and checks if the new one is saved

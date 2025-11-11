@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4f1e30aa-7315-41e4-b45d-a89e6c9495ce" name="Changes" comment="CT_E2E: add_employee: changed xpath to data-testid.">
+    <list default="true" id="4f1e30aa-7315-41e4-b45d-a89e6c9495ce" name="Changes" comment="CT_E2E: add_employee: check if saved by email.">
+      <change beforePath="$PROJECT_DIR$/.idea/RobotFramework.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/RobotFramework.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/common.resource" beforeDir="false" afterPath="$PROJECT_DIR$/resources/common.resource" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rest_api/rest_sample.robot" beforeDir="false" afterPath="$PROJECT_DIR$/rest_api/rest_sample.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_municipality/add_employee.robot" beforeDir="false" afterPath="$PROJECT_DIR$/test_municipality/add_employee.robot" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -276,7 +275,15 @@
       <option name="project" value="LOCAL" />
       <updated>1762879225815</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="CT_E2E: add_employee: check if saved by email.">
+      <option name="closed" value="true" />
+      <created>1762887508806</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1762887508806</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -298,6 +305,7 @@
     <MESSAGE value="CT_E2E: RequestsLibrary installed" />
     <MESSAGE value="CT_E2E: add tax rate: pick the date fails." />
     <MESSAGE value="CT_E2E: add_employee: changed xpath to data-testid." />
-    <option name="LAST_COMMIT_MESSAGE" value="CT_E2E: add_employee: changed xpath to data-testid." />
+    <MESSAGE value="CT_E2E: add_employee: check if saved by email." />
+    <option name="LAST_COMMIT_MESSAGE" value="CT_E2E: add_employee: check if saved by email." />
   </component>
 </project>
