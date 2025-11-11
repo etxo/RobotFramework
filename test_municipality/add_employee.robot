@@ -15,9 +15,8 @@ Login Municipality And Add Employee
     Click Button    id:municipality-employees-add-button
     Wait Until Element Is Visible    id:employee-form-container
     # select role 'municipality manager'
-    Click Element    xpath=//*[@id="employee-form-container"]/div[1]/div
-    Wait Until Element Is Visible    xpath=//*[@id="menu-"]/div[3]
-    Click Element   xpath://li[contains(text(), "Municipality Manager")]
+    Click Element    xpath=//*[@aria-labelledby="employee-form-role-select-label"]
+    Click Element   xpath://*[@data-value="ROLE_MUNICIPALITY_MANAGER"]
     Element Should Contain  xpath=//*[@id="employee-form-container"]/div[1]/div/div    Municipality Manager
     # enter name * phone * email
     Input Text    id:employee-form-first-name-input    Arturo

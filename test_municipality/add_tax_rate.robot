@@ -9,7 +9,7 @@ Login Municipality And Add Tax Rate
     Set Test Variable  ${email}    anyksciai@citytax.xyz
     Log    email : ${email}
     Submit Credentials
-    Wait Until Element Is Visible   id:fuse-main
+    Wait Until Element Is Visible   id:navbar-item-home-route
 # open navbar and go to
     Set Test Variable    ${navbar_item}    navbar-item-tax-rate-creation
     Open Navbar And Go To Next

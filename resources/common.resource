@@ -15,7 +15,7 @@ ${sleep_time}   0s
 *** Keywords ***
 Open Login Page
     Open Browser    ${base-url}    ${browser}  executable_path=${path-to-driver}
-    #Maximize Browser Window
+    Maximize Browser Window
     Wait Until Element Is Visible   id:sign-in-page-title
 
 Submit Credentials
