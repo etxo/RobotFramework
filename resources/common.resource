@@ -25,9 +25,12 @@ Submit Credentials
     Sleep   ${sleep_time}
     Click Button    id:login-submit-button
 
+Entry Point
+    Open Login Page
+    Submit Credentials
 
 Open Navbar And Go To Next
-    ${is_navbar_visible} =  Run Keyword And Return Status   Wait Until Element Is Visible    id:navbar-open-button
+    ${is_navbar_visible} =  Run Keyword And Return Status   Wait Until Element Is Visible    id:navbar-open-button  1s
     Log     is navbar visible: ${is_navbar_visible}
     Run Keyword IF    ${is_navbar_visible}
     ...    Click Element    id:navbar-open-button

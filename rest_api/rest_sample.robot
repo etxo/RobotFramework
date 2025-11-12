@@ -9,6 +9,7 @@ ${login} =  {"email": "anyksciai@citytax.xyz", "password": "${password}"}
 
 *** Tasks ***
 Retrieve Last Registered Employee
+    Set Test Variable    ${password}
     POST    ${local-login}
     Integer    response status  200
     Output  response body   admin_user.json
