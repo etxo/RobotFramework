@@ -9,6 +9,7 @@ ${manager_role}    Municipality Manager
 Login Municipality And Add Employee
     Open Login Page
     Set Test Variable  ${email}    anyksciai@citytax.xyz
+    Set Test Variable  ${password}
     Log    email : ${email}
     Submit Credentials
     Wait Until Element Is Visible   id:fuse-main

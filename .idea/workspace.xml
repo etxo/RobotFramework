@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4f1e30aa-7315-41e4-b45d-a89e6c9495ce" name="Changes" comment="CT_E2E: REST installed. rest_sample in work.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/common.resource" beforeDir="false" afterPath="$PROJECT_DIR$/resources/common.resource" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest_api/rest_sample.robot" beforeDir="false" afterPath="$PROJECT_DIR$/rest_api/rest_sample.robot" afterDir="false" />
+    <list default="true" id="4f1e30aa-7315-41e4-b45d-a89e6c9495ce" name="Changes" comment="CT_E2E: removed pwd.">
       <change beforePath="$PROJECT_DIR$/test_municipality/add_employee.robot" beforeDir="false" afterPath="$PROJECT_DIR$/test_municipality/add_employee.robot" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -301,7 +298,15 @@
       <option name="project" value="LOCAL" />
       <updated>1762941536695</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="CT_E2E: removed pwd.">
+      <option name="closed" value="true" />
+      <created>1762946461663</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1762946461664</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -326,6 +331,7 @@
     <MESSAGE value="CT_E2E: add_employee: check if saved by email." />
     <MESSAGE value="CT_E2E: add_employee: email variable." />
     <MESSAGE value="CT_E2E: REST installed. rest_sample in work." />
-    <option name="LAST_COMMIT_MESSAGE" value="CT_E2E: REST installed. rest_sample in work." />
+    <MESSAGE value="CT_E2E: removed pwd." />
+    <option name="LAST_COMMIT_MESSAGE" value="CT_E2E: removed pwd." />
   </component>
 </project>
