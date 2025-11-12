@@ -4,7 +4,7 @@ Library     SeleniumLibrary
 *** Variables ***
 ${base-url}    https://dev-ui.citytax.app
 ${email}
-${password}    %CTdemo2025
+${password}    ********
 ${browser}  chrome
 ${path-to-driver}   ${EXECDIR}/.venv/bin/chromedriver
 ${navbar_item}

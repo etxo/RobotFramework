@@ -2,9 +2,10 @@
 Library     REST
 
 *** Variables ***
+${password}
 ${local-login}    http://localhost:8082/api/auth/login
 ${local-admins-list}    http://localhost:8082/api/admin/users
-${login} =  {"email": "anyksciai@citytax.xyz", "password": "%CTdemo2025"}
+${login} =  {"email": "anyksciai@citytax.xyz", "password": "${password}"}
 
 *** Tasks ***
 Retrieve Last Registered Employee
