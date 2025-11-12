@@ -2,13 +2,12 @@
 Library     REST
 
 *** Variables ***
-${base-url}    https://dev-ui.citytax.app
-${get-users} =  https://dev-ui.citytax.app/employees
+${local-login}    http://localhost:8082/api/auth/login
+${local-admins-list}    http://localhost:8082/api/admin/users
 ${login} =  {"email": "anyksciai@citytax.xyz", "password": "%CTdemo2025"}
 
 *** Tasks ***
 Retrieve Last Registered Employee
-    POST    endpoint
-    Log    response body: ${get-users}
-    ${result} =    GET  ${get-users}
-    Log    ${result}
+    POST    ${local-login}
+    Integer    response status  200
+    Output  response body   admin_user.json
