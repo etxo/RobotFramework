@@ -4,17 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4f1e30aa-7315-41e4-b45d-a89e6c9495ce" name="Changes" comment="CT_E2E: set test var">
-      <change afterPath="$PROJECT_DIR$/municipality/address_change.robot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/municipality/invite_host.robot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/municipality/phone_change.robot" afterDir="false" />
+    <list default="true" id="4f1e30aa-7315-41e4-b45d-a89e6c9495ce" name="Changes" comment="CT_E2E: invite_host. change_address. change_phone_number">
+      <change afterPath="$PROJECT_DIR$/resources/tax_rate.resource" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/municipality/add_tax_rate.robot" beforeDir="false" afterPath="$PROJECT_DIR$/municipality/add_tax_rate.robot" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/common.resource" beforeDir="false" afterPath="$PROJECT_DIR$/resources/common.resource" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest_api/rest_sample.robot" beforeDir="false" afterPath="$PROJECT_DIR$/rest_api/rest_sample.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_municipality/add_employee.robot" beforeDir="false" afterPath="$PROJECT_DIR$/municipality/add_employee.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_municipality/add_tax_rate.robot" beforeDir="false" afterPath="$PROJECT_DIR$/municipality/add_tax_rate.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_municipality/login_host.robot" beforeDir="false" afterPath="$PROJECT_DIR$/host/login_host.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_municipality/login_municipality.robot" beforeDir="false" afterPath="$PROJECT_DIR$/municipality/login_municipality.robot" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,40 +46,40 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python.main.executor": "Run",
-    "Robot Framework.run [Change Address].executor": "Run",
-    "Robot Framework.run [Invite Host].executor": "Run",
-    "Robot Framework.run [Log ChromeDriver Path].executor": "Run",
-    "Robot Framework.run [Login Guest User Form].executor": "Run",
-    "Robot Framework.run [Login Guest User Google].executor": "Run",
-    "Robot Framework.run [Login Guest With Google].executor": "Run",
-    "Robot Framework.run [Login Host].executor": "Run",
-    "Robot Framework.run [Login Municipality And Add Employee].executor": "Run",
-    "Robot Framework.run [Login Municipality And Add Season].executor": "Run",
-    "Robot Framework.run [Login Municipality And Add Tax Rate].executor": "Run",
-    "Robot Framework.run [Login Municipality And Open Tax Rate].executor": "Run",
-    "Robot Framework.run [Login Municipality User].executor": "Run",
-    "Robot Framework.run [Login Municipality].executor": "Run",
-    "Robot Framework.run [Open Browser From Profile].executor": "Run",
-    "Robot Framework.run [Open Chrom Browser].executor": "Run",
-    "Robot Framework.run [Open Chrome Browser].executor": "Run",
-    "Robot Framework.run [Open Profiled Browser].executor": "Run",
-    "Robot Framework.run [Retrieve Last Registered Employee].executor": "Run",
-    "Robot Framework.run [Set Chrome Driver].executor": "Run",
-    "Robot Framework.run [Try To SetUp Webdriver].executor": "Run",
-    "Robot Framework.run current file.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "CT__E2E__enable__employee",
-    "last_opened_file_path": "/home/etxo/PycharmProjects/RobotFramework/.venv/bin",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "settings.editor.splitter.proportion": "0.31701446"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Robot Framework.run [Change Address].executor&quot;: &quot;Run&quot;,
+    &quot;Robot Framework.run [Invite Host].executor&quot;: &quot;Run&quot;,
+    &quot;Robot Framework.run [Log ChromeDriver Path].executor&quot;: &quot;Run&quot;,
+    &quot;Robot Framework.run [Login Guest User Form].executor&quot;: &quot;Run&quot;,
+    &quot;Robot Framework.run [Login Guest User Google].executor&quot;: &quot;Run&quot;,
+    &quot;Robot Framework.run [Login Guest With Google].executor&quot;: &quot;Run&quot;,
+    &quot;Robot Framework.run [Login Host].executor&quot;: &quot;Run&quot;,
+    &quot;Robot Framework.run [Login Municipality And Add Employee].executor&quot;: &quot;Run&quot;,
+    &quot;Robot Framework.run [Login Municipality And Add Season].executor&quot;: &quot;Run&quot;,
+    &quot;Robot Framework.run [Login Municipality And Add Tax Rate].executor&quot;: &quot;Run&quot;,
+    &quot;Robot Framework.run [Login Municipality And Open Tax Rate].executor&quot;: &quot;Run&quot;,
+    &quot;Robot Framework.run [Login Municipality User].executor&quot;: &quot;Run&quot;,
+    &quot;Robot Framework.run [Login Municipality].executor&quot;: &quot;Run&quot;,
+    &quot;Robot Framework.run [Open Browser From Profile].executor&quot;: &quot;Run&quot;,
+    &quot;Robot Framework.run [Open Chrom Browser].executor&quot;: &quot;Run&quot;,
+    &quot;Robot Framework.run [Open Chrome Browser].executor&quot;: &quot;Run&quot;,
+    &quot;Robot Framework.run [Open Profiled Browser].executor&quot;: &quot;Run&quot;,
+    &quot;Robot Framework.run [Retrieve Last Registered Employee].executor&quot;: &quot;Run&quot;,
+    &quot;Robot Framework.run [Set Chrome Driver].executor&quot;: &quot;Run&quot;,
+    &quot;Robot Framework.run [Try To SetUp Webdriver].executor&quot;: &quot;Run&quot;,
+    &quot;Robot Framework.run current file.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;CT__E2E__enable__employee&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/etxo/PycharmProjects/RobotFramework/.venv/bin&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;settings.editor.splitter.proportion&quot;: &quot;0.31701446&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/.venv/bin" />
@@ -326,7 +320,15 @@
       <option name="project" value="LOCAL" />
       <updated>1762946717779</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="CT_E2E: invite_host. change_address. change_phone_number">
+      <option name="closed" value="true" />
+      <created>1762969135376</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1762969135376</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -353,6 +355,7 @@
     <MESSAGE value="CT_E2E: REST installed. rest_sample in work." />
     <MESSAGE value="CT_E2E: removed pwd." />
     <MESSAGE value="CT_E2E: set test var" />
-    <option name="LAST_COMMIT_MESSAGE" value="CT_E2E: set test var" />
+    <MESSAGE value="CT_E2E: invite_host. change_address. change_phone_number" />
+    <option name="LAST_COMMIT_MESSAGE" value="CT_E2E: invite_host. change_address. change_phone_number" />
   </component>
 </project>

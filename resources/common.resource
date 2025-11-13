@@ -4,7 +4,7 @@ Library     SeleniumLibrary
 *** Variables ***
 ${base-url}    https://dev-ui.citytax.app
 ${email}
-${password}    ********
+${password}    ******
 ${browser}  chrome
 ${path-to-driver}   ${EXECDIR}/.venv/bin/chromedriver
 ${navbar_item}
@@ -37,9 +37,3 @@ Open Navbar And Go To Next
     #Sleep    ${sleep_time}
     Wait Until Element Is Enabled    id:${navbar_item}
     Click Element    id:${navbar_item}
-
-Create Tax Rate
-    Wait Until Element Is Visible    id:municipality-tax-rate-add-button
-    Click Element    id:municipality-tax-rate-add-button
-    Input Text    id::r7:     ${text}   ${TRUE}
-
